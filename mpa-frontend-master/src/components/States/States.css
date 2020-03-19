@@ -1,0 +1,40 @@
+.States {
+    position: relative;
+    display: flex;
+    padding: 0 1rem 1rem;
+    align-items: flex-start;
+}
+
+.States > *:not(:last-child) {
+    margin-right: 1rem;
+}
+.States-Wrap {
+    height: 100%;
+}
+ .States-Draft, .States-NextState {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.States-DraftWrap {
+    flex-shrink: 1;
+}
+.States-Draft {
+    border-radius: 8px;
+}
+
+.States-Heading {
+    width: 100%;
+    text-align: center;
+}
+
+.States-NextWrap {
+    width: 400px;
+}
+
+.States-Next {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow-y: scroll;
+}

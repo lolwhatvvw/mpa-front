@@ -1,0 +1,24 @@
+.App {
+    display: grid;
+    width: 100vw;
+    height: calc(100vh -  2px);
+    overflow: hidden;
+    grid-gap: 20px;
+    grid-template-rows: max-content 1fr;
+    grid-template-columns: 18rem 1fr;
+    grid-template-areas: 'header header'
+                        'main main';
+    background-color: #fafafa;
+}
+*{
+    box-sizing: border-box;
+}
+.menu{
+    grid-area: header;
+}
+
+.Main{
+    grid-area: main;
+    padding: 0 20px 20px;
+    overflow-y: auto;
+}

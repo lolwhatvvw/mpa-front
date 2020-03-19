@@ -1,0 +1,23 @@
+.Draft {
+    position: relative;
+}
+
+.Draft-StatusFormContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.Draft-UpdatedOn {
+    float: right;
+    color: #999;
+}
+.Draft-PlusButton {
+    cursor: pointer;
+}
+.Draft-StatusForm--Margined {
+    margin-left: calc(21px + .25rem) !important;
+}
+
+.Draft .ui.form .inline.fields{
+    align-items: flex-end;
+}
